@@ -15,7 +15,7 @@
 
     <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
 
-    <dubbo:reference interface="cn.luckyqiang.gmall.service.UserService" id="userService"></dubbo:reference>
+    <dubbo:reference interface="cn.luckyqiang.gmall.service.UserService1" id="userService1"></dubbo:reference>
 
 
 
