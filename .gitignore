@@ -11,6 +11,7 @@
 *.iml
 mvnw
 mvnw.cmd
+*.mvn
 
 # BlueJ files
 *.ctxt
