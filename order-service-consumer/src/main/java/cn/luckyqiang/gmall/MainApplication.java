@@ -1,6 +1,7 @@
 package cn.luckyqiang.gmall;
 
 import cn.luckyqiang.gmall.service.OrderService;
+import cn.luckyqiang.gmall.service.OrderService1;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
@@ -14,8 +15,8 @@ import java.io.IOException;
 public class MainApplication {
     public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("consumer.xml");
-        OrderService orderService = applicationContext.getBean(OrderService.class);
-        orderService.initOrder("1");
+        OrderService1 orderService1 = applicationContext.getBean(OrderService1.class);
+        orderService1.initOrder("1");
         System.out.println("调用结束");
         System.in.read();
     }

@@ -11,6 +11,6 @@ import java.util.List;
  * @Date: 2019-09-23 21:49
  * @Company: www.luckyqiang.cn
  */
-public interface OrderService {
-    public List<UserAddress> initOrder(String userId);
+public interface OrderService1 {
+    public void initOrder(String userId);
 }

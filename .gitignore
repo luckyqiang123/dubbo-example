@@ -9,6 +9,8 @@
 
 *.idea/*
 *.iml
+mvnw
+mvnw.cmd
 
 # BlueJ files
 *.ctxt
